@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.LoadTestingSimulation",
+  "simulationId": "loadtestingsimulation",
+  "start": 1638787910630,
+  "description": "",
+  "scenarios": ["Get single airline by id"],
+  "assertions": [
+
+  ]
+}
