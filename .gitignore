@@ -2,3 +2,4 @@
 .vscode/
 .idea/
 .bsp/
+target/global-logging/
