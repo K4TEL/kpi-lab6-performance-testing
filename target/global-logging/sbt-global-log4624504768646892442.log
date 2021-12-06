@@ -3,3 +3,32 @@
 [0m[[0m[33mwarn[0m] [0m[0msbt 0.13 shell syntax is deprecated; use slash syntax instead: Gatling / test[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to C:\Users\Admin\Documents\Study\KPI\pt 2\pt\target\scala-3.0.2\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation SoakTestingSimulation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation BreakpointTestingSimulation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation LoadTestingSimulation successful.[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IllegalArgumentException: requirement failed: No scenario set up[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Predef$.require(Predef.scala:337)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.core.scenario.Simulation$.params(Simulation.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.core.scenario.Simulation.params(Simulation.scala:181)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.SimulationClass$Scala.params(SimulationClass.scala:31)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.Runner.run0(Runner.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.Runner.run(Runner.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.Gatling$.start(Gatling.scala:87)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.Gatling$.fromArgs(Gatling.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.app.Gatling$.fromSbtTestFramework(Gatling.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.sbt.GatlingTask.liftedTree1$1(GatlingTask.scala:52)[0m
+[0m[[0m[31merror[0m] [0m[0m	at io.gatling.sbt.GatlingTask.execute(GatlingTask.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ForkMain$Run.lambda$runTest$1(ForkMain.java:413)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0mSimulation BaseSimulation failed.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation SpikeTestingSimulation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0mSimulation(s) execution ended.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	base.BaseSimulation[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Gatling / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 83 s (01:23), completed 06.12.2021 12:17:59[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
