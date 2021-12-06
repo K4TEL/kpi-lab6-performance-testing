@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.SpikeTestingSimulation",
+  "simulationId": "spiketestingsimulation",
+  "start": 1638785873614,
+  "description": "",
+  "scenarios": ["Spike Testing scenario"],
+  "assertions": [
+
+  ]
+}

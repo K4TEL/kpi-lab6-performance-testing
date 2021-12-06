@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.SoakTestingSimulation",
+  "simulationId": "soaktestingsimulation",
+  "start": 1638785805210,
+  "description": "",
+  "scenarios": ["Soak Testing scenario"],
+  "assertions": [
+
+  ]
+}
